@@ -1044,6 +1044,13 @@ html {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    .contact-info,
+    .contact-form-wrapper {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
 }
 
 @media (max-width: 600px) {
@@ -1074,6 +1081,44 @@ html {
 
     .container {
         padding: 0 0.8rem;
+    }
+
+    .contact-page {
+        padding: 3rem 0 4rem;
+    }
+
+    .contact-info,
+    .contact-form-wrapper {
+        padding: 1.5rem;
+        border-radius: 1.4rem;
+    }
+
+    .contact-grid {
+        gap: 1.5rem;
+    }
+
+    .form-header h3 {
+        font-size: 1.25rem;
+    }
+
+    .form-header p,
+    .info-details p,
+    .info-note {
+        font-size: 0.9rem;
+    }
+
+    .contact-form-modern {
+        gap: 1rem;
+    }
+
+    .input-wrapper input,
+    .textarea-wrapper textarea {
+        font-size: 0.9rem;
+        padding-left: 2.6rem;
+    }
+
+    .submit-btn {
+        width: 100%;
     }
 
     .values-grid {
