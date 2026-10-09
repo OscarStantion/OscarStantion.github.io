@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contáctanos — Colegio Guadalupe</title>
+
+    <link rel="stylesheet" href="../Estilos_Html/Es_Contactanos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="../IMG COLE/logo1.png" type="image/png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<div class="page">
+
+    <header class="contact-hero" id="inicio">
+        <nav class="top-nav">
+            <a class="brand" href="home.html#inicio">
+                <img src="../IMG COLE/logo1.png" alt="Colegio Guadalupe" />
+                <span class="brand-mobile">Colegio Guadalupe</span>
+            </a>
+
+            <button class="hamburger" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="home.html#inicio">Inicio</a></li>
+                <li><a href="Institucion.html">Institución</a></li>
+                <li><a href="docentes.html">Docentes</a></li>
+                <li><a href="Matricula.html">Matrícula</a></li>
+                <li><a aria-current="page" class="active" href="Contactanos.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <div>
+                <p class="eyebrow">Comunícate con nosotros</p>
+                <h1>Estamos aquí para <span class="highlight">ayudarte</span></h1>
+                <p class="lead">
+                    Agenda una visita guiada o escríbenos y te responderemos a la brevedad.
+                </p>
+            </div>
+        </div>
+
+        <div class="hero-scroll-indicator">
+            <span>Contáctanos</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <main id="C" class="contact-page">
+        <div class="container">
+            <div class="contact-grid">
+
+                <!-- Información de contacto -->
+                <div class="contact-info">
+                    <div class="info-header">
+                        <span class="info-tag">Información de contacto</span>
+                        <h2>¿Cómo podemos ayudarte?</h2>
+                        <div class="info-decoration"></div>
+                    </div>
+
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Teléfono</h3>
+                                <p><a href="tel:+51929305278">+51 929 305 278</a></p>
+                                <p class="info-note">Lun - Vie, 8:00 am - 5:00 pm</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Correo electrónico</h3>
+                                <p>
+                                    <a href="mailto:Iesp.elmilagrodeguadalupe@gmail.com">
+                                        Iesp.elmilagrodeguadalupe@gmail.com
+                                    </a>
+                                </p>
+                                <p class="info-note">Respondemos en 24 horas</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="info-details">
+                                <h3>Dirección</h3>
+                                <p>Calle Francisco Bolognesi N°340</p>
+                                <p>Mochumí, Perú</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-section">
+                        <h3>Síguenos en redes</h3>
+                        <div class="social-grid">
+                            <a href="https://web.facebook.com/pierluggiraul.inonancastillo.7"
+                               target="_blank" rel="noopener noreferrer"
+                               class="social-link facebook" aria-label="Facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/iep.elmilagrodeguadalupe/"
+                               target="_blank" rel="noopener noreferrer"
+                               class="social-link instagram" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <a href="https://wa.me/51929305278"
+                               target="_blank" rel="noopener noreferrer"
+                               class="social-link whatsapp" aria-label="WhatsApp">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulario de contacto -->
+                <div class="contact-form-wrapper">
+                    <div class="form-header">
+                        <h3>Envíanos un mensaje</h3>
+                        <p>Completa el formulario y te contactaremos a la brevedad</p>
+                    </div>
+
+                    <form id="contact-form" class="contact-form-modern"
+                          action="https://formsubmit.co/ajax/Iesp.elmilagrodeguadalupe@gmail.com"
+                          method="POST">
+
+                        <input type="hidden" name="_subject"
+                               value="Nuevo mensaje desde la web del Colegio Guadalupe" />
+
+                        <input type="hidden" name="_template" value="table" />
+
+                        <!-- Campo oculto para reducir el spam -->
+                        <input type="text" name="_honey" tabindex="-1"
+                               autocomplete="off" aria-hidden="true"
+                               style="display:none" />
+
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <div class="input-wrapper">
+                                <i class="fa-regular fa-user"></i>
+                                <input type="text" id="nombre" name="nombre"
+                                       placeholder="Ej. Juan Pérez" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="correo">Correo electrónico</label>
+                            <div class="input-wrapper">
+                                <i class="fa-regular fa-envelope"></i>
+                                <input type="email" id="correo" name="email"
+                                       placeholder="ejemplo@correo.com" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <div class="input-wrapper">
+                                <i class="fa-solid fa-phone"></i>
+                                <input type="tel" id="telefono" name="telefono"
+                                       placeholder="+51 999 999 999" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <div class="textarea-wrapper">
+                                <i class="fa-regular fa-message"></i>
+                                <textarea id="mensaje" name="mensaje" rows="4"
+                                          placeholder="¿En qué podemos ayudarte?"
+                                          required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-note">
+                            <i class="fa-regular fa-circle-check"></i>
+                            <span>Este formulario tiene un filtro para lenguaje respetuoso.</span>
+                        </div>
+
+                        <div class="form-alert" aria-live="polite" role="status" hidden></div>
+
+                        <button type="submit" class="submit-btn">
+                            <span>Enviar mensaje</span>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-top">
+
+                <div class="footer-brand-section">
+                    <div class="footer-brand">
+                        <img src="../IMG COLE/logo1.png" alt="Colegio Guadalupe" />
+                        <div>
+                            <h3>Colegio Guadalupe</h3>
+                            <p class="footer-tagline">Formando líderes con propósito</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Explorar</h4>
+                    <ul class="footer-links">
+                        <li><a href="#C">Cómo podemos ayudarte</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Institucional</h4>
+                    <ul class="footer-links">
+                        <li><a href="home.html">Inicio</a></li>
+                        <li><a href="Institucion.html">Institución</a></li>
+                        <li><a href="docentes.html">Docentes</a></li>
+                        <li><a href="Matricula.html">Matrícula</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <div class="footer-contact">
+                        <p>
+                            <a class="contact-link" href="tel:+51929305278">
+                                <i class="fa-solid fa-phone"></i>
+                                +51 929 305 278
+                            </a>
+                        </p>
+                        <p>
+                            <a class="contact-link"
+                               href="mailto:Iesp.elmilagrodeguadalupe@gmail.com">
+                                <i class="fa-solid fa-envelope"></i>
+                                Iesp.elmilagrodeguadalupe@gmail.com
+                            </a>
+                        </p>
+                        <p class="contact-address">
+                            <i class="fa-solid fa-map-pin"></i>
+                            Calle Francisco Bolognesi N°340<br />Mochumí, Perú
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-mid">
+                <div class="footer-social">
+                    <a class="social-icon facebook"
+                       href="https://web.facebook.com/pierluggiraul.inonancastillo.7"
+                       target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a class="social-icon instagram"
+                       href="https://www.instagram.com/iep.elmilagrodeguadalupe/"
+                       target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a class="social-icon whatsapp"
+                       href="https://wa.me/51929305278"
+                       target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; Colegio Guadalupe. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</div>
+
+<!-- Botón flotante de WhatsApp -->
+<a class="whatsapp-bubble"
+   href="https://wa.me/51929305278?text=Hola%20Colegio%20Guadalupe%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n"
+   target="_blank" rel="noopener noreferrer"
+   aria-label="Escríbenos por WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    <span>WhatsApp</span>
+</a>
+
+<!-- Validación y envío del formulario -->
+<script>
+(() => {
+    const form = document.getElementById('contact-form');
+    if (!form) return;
+
+    const alertBox = form.querySelector('.form-alert');
+    const submitButton = form.querySelector('.submit-btn');
+    const buttonText = submitButton.querySelector('span');
+
+    const blacklist = [
+        'puta', 'puto', 'mierda', 'carajo', 'imbecil',
+        'imbécil', 'estupido', 'estúpido', 'idiota',
+        'conchatumadre', 'maldito', 'maldita', 'hdp'
+    ];
+
+    function showAlert(message) {
+        alertBox.textContent = message;
+        alertBox.hidden = false;
+    }
+
+    form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+
+        if (!form.reportValidity()) return;
+
+        const textToCheck = [
+            form.elements.nombre.value,
+            form.elements.email.value,
+            form.elements.telefono.value,
+            form.elements.mensaje.value
+        ].join(' ').toLowerCase();
+
+        if (blacklist.some(word => textToCheck.includes(word))) {
+            showAlert('Por favor, evita lenguaje ofensivo antes de enviar tu mensaje.');
+            form.elements.mensaje.focus();
+            return;
+        }
+
+        alertBox.hidden = true;
+        submitButton.disabled = true;
+        buttonText.textContent = 'Enviando...';
+
+        try {
+            const response = await fetch(form.action, {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json'
+                },
+                body: new FormData(form)
+            });
+
+            const result = await response.json();
+
+            if (!response.ok || result.success === false ||
+                result.success === 'false') {
+                throw new Error('El servicio no aceptó el envío.');
+            }
+
+            showAlert(
+                'Tu mensaje fue enviado correctamente. Gracias por contactarnos.'
+            );
+            form.reset();
+
+        } catch (error) {
+            console.error('Error al enviar el formulario:', error);
+            showAlert(
+                'No se pudo confirmar el envío. Inténtalo nuevamente más tarde.'
+            );
+
+        } finally {
+            submitButton.disabled = false;
+            buttonText.textContent = 'Enviar mensaje';
+        }
+    });
+})();
+</script>
+
+<script src="../Animaciones/Es_contactanos.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Docentes | Colegio Guadalupe</title>
+		<link
+			rel="stylesheet"
+			href="../Estilos_Html/Es_docentes.css"
+		/>
+		 <script src="../Animaciones/Es_docentes.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap"
+			rel="stylesheet"
+			
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="icon" href="../IMG COLE/logo1.png" type="image/svg">
+	</head>
+	<body>
+		<div class="page">
+			<header class="hero" id="inicio">
+				<nav class="top-nav">
+    <a class="brand" href="home.html#inicio">
+        <img src="../IMG COLE/logo1.png" alt="Colegio Guadalupe" />
+        <span class="brand-mobile">Colegio Guadalupe</span>
+    </a>
+    <button class="hamburger" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <ul class="nav-links">
+        <li><a href="home.html#inicio">Inicio</a></li>
+        <li><a href="Institucion.html">Institución</a></li>
+        <li><a aria-current="page" class="active" href="docentes.html">Docentes</a></li>
+        <li><a href="Matricula.html">Matrícula</a></li>
+        <li><a href="Contactanos.html">Contáctanos</a></li>
+    </ul>
+</nav>
+				<div class="hero-content">
+					<div>
+						<p class="eyebrow">Nuestro equipo</p>
+						<h1>
+							Docentes que acompañan cada etapa de aprendizaje
+						</h1>
+						<p class="lead">
+							Profesionales con vocación pedagógica, formación continua y un
+							enfoque cercano a cada estudiante y familia.
+						</p>
+						<div class="hero-actions">
+							<button class="btn primary" onclick="document.getElementById('primaria').scrollIntoView({behavior:'smooth'})">Primaria</button>
+							<button class="btn ghost" onclick="document.getElementById('secundaria').scrollIntoView({behavior:'smooth'})">Secundaria</button>
+							<button class="btn ghost" onclick="document.getElementById('tutores').scrollIntoView({behavior:'smooth'})">Tutores</button>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<main>
+				<section class="section team-overview" aria-label="Equipo docente">
+					<div class="container">
+						<div class="section-heading">
+							<h2>Distribución de docentes</h2>
+							<p>
+								Organiza aquí los equipos por nivel y especialidad. Duplica las
+								tarjetas según necesites y reemplaza los datos por los nombres
+								reales de cada docente.
+							</p>
+						</div>
+
+						<div id="primaria" class="anchor"></div>
+						<div class="team-category">
+							<div class="team-category-header">
+								<div>
+									<p class="section-kicker">Primaria</p>
+									<h3>Docentes de primaria</h3>
+									<p>
+										Equipo que acompaña desde 1.° a 6.° con proyectos de lectura,
+										matemática aplicada y vida saludable.
+									</p>
+								</div>
+								<div class="team-badges">
+									<span class="team-badge">1° - 6° primaria</span>
+									<span class="team-badge">Acompañamiento familiar</span>
+								</div>
+							</div>
+							<div class="team-grid">
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+									<h4>Karim Llontop Niquen</h4>
+									<p class="team-role">1.° primaria </p>
+									<p class="team-focus">Docente.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+									<h4>Alejandra Chiroque Vidaurre</h4>
+									<p class="team-role">1.° primaria </p>
+									<p class="team-focus">Auxiliar de primaria</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+									<h4>Luz Maria Sirlupu Braco</h4>
+									<p class="team-role">2.° primaria </p>
+									<p class="team-focus">Docente.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+									<h4>Diana Lizeth Zeña Zapata</h4>
+									<p class="team-role">3.° primaria </p>
+									<p class="team-focus">Docente.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+									<h4>Leonardo Adolfo Aquino Saavedra</h4>
+									<p class="team-role"> primaria ·Raz.Matemático,Trigonometría</p>
+									<p class="team-focus">Docente.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+									<h4>Rosario del Pilar Véliz Palacios</h4>
+									<p class="team-role">primaria · Álgebra,Geometría</p>
+									<p class="team-focus">Docente.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+									<h4>Edwin Lopez Valdiviezo</h4>
+									<p class="team-role">primaria · Educacíon Física</p>
+									<p class="team-focus">Docente.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+									<h4>Inés Mayorga</h4>
+									<p class="team-role">primaria · Inglés</p>
+									<p class="team-focus">Docente.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+									<h4>Manuel Alamo</h4>
+									<p class="team-role"> primaria · Historia y Geografía</p>
+									<p class="team-focus">Docente.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+									<h4>Donidio Añexander Chapoñan Sarmiento</h4>
+									<p class="team-role">primaria · Aritmetica,Algebra</p>
+									<p class="team-focus">Docente.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+									<h4>Lesli Yoana Sanchez Santamaria</h4>
+									<p class="team-role">primaria · Biologia,Química</p>
+									<p class="team-focus">Docente.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+									<h4>Nomberto Acosta Carlos Antonio</h4>
+									<p class="team-role">primaria · Danza</p>
+									<p class="team-focus"> Docente.</p>
+								</article>
+							</div>
+						</div>
+
+						<div id="secundaria" class="anchor"></div>
+						<div class="team-category">
+							<div class="team-category-header">
+								<div>
+									<p class="section-kicker">Secundaria</p>
+									<h3>Docentes de secundaria</h3>
+									<p>
+										Especialistas por áreas que preparan a los estudiantes para la
+										educación superior y proyectos de investigación.
+									</p>
+								</div>
+								<div class="team-badges">
+									<span class="team-badge">1° - 5° secundaria</span>
+									<span class="team-badge">Rutas académicas</span>
+								</div>
+							</div>
+							<div class="team-grid">
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-flask"></i></div>
+									<h4>Gary Galan Holguin</h4>
+									<p class="team-role">Química · Anatomía</p>
+									<p class="team-focus">Laboratorios y fundamentos del cuerpo humano.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-atom"></i></div>
+									<h4>Leonardo Adolfo Aquino Saavedra</h4>
+									<p class="team-role">Raz. matemático · Trigonometría</p>
+									<p class="team-focus">Preparación académica y ejercicios de razonamiento.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-language"></i></div>
+									<h4>Gian Carlos Zeta Chafloque</h4>
+									<p class="team-role">Raz. verbal · Literatura · Lenguaje</p>
+									<p class="team-focus">Comprensión lectora, redacción y argumentación.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-square-root-variable"></i></div>
+									<h4>Rosario del Pilar Véliz Palacios</h4>
+									<p class="team-role">Álgebra · Física elemental</p>
+									<p class="team-focus">Aplicación de modelos y problemas prácticos.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-dumbbell"></i></div>
+									<h4>Edwin Lopez Valdiviezo</h4>
+									<p class="team-role">Educación física</p>
+									<p class="team-focus">Condición física y hábitos saludables.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-ruler-combined"></i></div>
+									<h4>Lucio Mendoza López</h4>
+									<p class="team-role">Geometría · Física elemental</p>
+									<p class="team-focus">Resolución gráfica y experimentos básicos.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-globe"></i></div>
+									<h4>Inés Mayorga</h4>
+									<p class="team-role">Inglés</p>
+									<p class="team-focus">Comunicación bilingüe y preparación internacional.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-earth-americas"></i></div>
+									<h4>Manuel Ramos Alamo Farroñan</h4>
+									<p class="team-role">Historia · Geografía</p>
+									<p class="team-focus">Contexto histórico y territorial.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+									<h4>Cristhian Calopiño Hernandez</h4>
+									<p class="team-role">DPCC · Economía · Cívica</p>
+									<p class="team-focus">Ciudadanía, economía y convivencia escolar.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-calculator"></i></div>
+									<h4>Donidio Alexander Chapoñan Sarmiento</h4>
+									<p class="team-role">Aritmética</p>
+									<p class="team-focus">Refuerzo numérico y resolución de problemas.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-dna"></i></div>
+									<h4>Lesli Yoana Sanchez Santamaria</h4>
+									<p class="team-role">Biología</p>
+									<p class="team-focus">Indagación científica y cuidado ambiental.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-compass"></i></div>
+									<h4>Mario Calle</h4>
+									<p class="team-role">Historia · Geografía</p>
+									<p class="team-focus">Procesos históricos y espacio geográfico.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-pen-nib"></i></div>
+									<h4>Manuel Humberto Cabrejos Gines</h4>
+									<p class="team-role">Lenguaje</p>
+									<p class="team-focus">Producción de textos y comprensión lectora.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-earth-americas"></i></div>
+									<h4>Santiago Vitoni</h4>
+									<p class="team-role">Historia · Geografía</p>
+									<p class="team-focus">Análisis histórico y contexto regional.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-book-open"></i></div>
+									<h4>Edgar Cruz Villegas</h4>
+									<p class="team-role">Filosofía</p>
+									<p class="team-focus">Pensamiento crítico y ética.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-person-running"></i></div>
+									<h4>Carlos Antonio Nomberto Acosta</h4>
+									<p class="team-role">Danza</p>
+									<p class="team-focus">Expresión corporal y presentaciones artísticas.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-masks-theater"></i></div>
+									<h4>Gonzalo Alejandro Cabrejos Gines</h4>
+									<p class="team-role">Arte · Danza</p>
+									<p class="team-focus">Montajes artísticos y formación escénica.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-square-root-alt"></i></div>
+									<h4>Marcos Paz Acista</h4>
+									<p class="team-role">Álgebra</p>
+									<p class="team-focus">Resolución de problemas y preparación académica.</p>
+								</article>
+							</div>
+						</div>
+
+						<div id="tutores" class="anchor"></div>
+						<div class="team-category">
+							<div class="team-category-header">
+								<div>
+									<p class="section-kicker">Tutores y soporte</p>
+									<h3>Tutores, orientación y apoyo</h3>
+									<p>
+										Profesionales que acompañan la convivencia escolar, la gestión
+										emocional y el vínculo con familias.
+									</p>
+								</div>
+								<div class="team-badges">
+									<span class="team-badge">Tutoría</span>
+									<span class="team-badge">Psicopedagogía</span>
+								</div>
+							</div>
+							<div class="team-grid">
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-people-roof"></i></div>
+									<h4>Veronica Janeth Diaz Requejo</h4>
+									<p class="team-role">Primero de primaria</p>
+									<p class="team-focus">Tutoría y acompañamiento de aula.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-people-roof"></i></div>
+									<h4>Luz Maria Sirlupu Braco</h4>
+									<p class="team-role">Segundo de primaria</p>
+									<p class="team-focus">Seguimiento académico y familiar.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-people-roof"></i></div>
+									<h4>Diana Lizeth Zeña Zapata</h4>
+									<p class="team-role">Tercero de primaria</p>
+									<p class="team-focus">Tutoría y acompañamiento socioemocional.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-people-roof"></i></div>
+									<h4>Carlos Antonionomberto Acosta</h4>
+									<p class="team-role">Cuarto primaria</p>
+									<p class="team-focus">Tutor y guía de convivencia.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-people-roof"></i></div>
+									<h4>Manuel Ramos Alamo Farroñan</h4>
+									<p class="team-role">Quinto primaria</p>
+									<p class="team-focus">Acompañamiento pedagógico y formativo.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-people-roof"></i></div>
+									<h4>Rosario del Pilar Véliz Palacios</h4>
+									<p class="team-role">Sexto primaria</p>
+									<p class="team-focus">Tutoría y preparación al paso a secundaria.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+									<h4>Lucio Mendoza López</h4>
+									<p class="team-role">Primero responsabilidad (secundaria)</p>
+									<p class="team-focus">Acompañamiento a primer año.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+									<h4>Gonzalo Alejandro Cabrejos Gines</h4>
+									<p class="team-role">Primero solidaridad (secundaria)</p>
+									<p class="team-focus">Tutoría y proyectos solidarios.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+									<h4>Gian Carlos Zeta Chafloque</h4>
+									<p class="team-role">Segundo honestidad (secundaria)</p>
+									<p class="team-focus">Tutoría y formación en valores.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+									<h4>Donidio Alexander Chapoñan Sarmiento</h4>
+									<p class="team-role">Segundo gratitud (secundaria)</p>
+									<p class="team-focus">Tutoría y convivencia escolar.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+									<h4>Gary Galan Holguin</h4>
+									<p class="team-role">Tercero empatía (secundaria)</p>
+									<p class="team-focus">Desarrollo socioemocional y liderazgo.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+									<h4>Cristhian Calopiño Hernandez</h4>
+									<p class="team-role">Cuarto tolerancia (secundaria)</p>
+									<p class="team-focus">Convivencia y respeto en el aula.</p>
+								</article>
+								<article class="team-card">
+									<div class="team-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+									<h4>Lic. Melissa Stefany Ylma Seclen</h4>
+									<p class="team-role">Quinto voluntad (secundaria)</p>
+									<p class="team-focus">Tutoría y orientación psicológica.</p>
+								</article>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				
+			</main>
+
+			<footer class="footer">
+				<div class="footer-content">
+					<div class="footer-top">
+						<div class="footer-brand-section">
+							<div class="footer-brand">
+								<img src="../IMG COLE/logo1.png" alt="Colegio Guadalupe" />
+								<div>
+									<h3>Colegio Guadalupe</h3>
+									<p class="footer-tagline">Formando líderes con propósito</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="footer-section">
+							<h4>Explorar</h4>
+							<ul class="footer-links">
+								<li><a href="#primaria">Docentes de primaria</a></li>
+								<li><a href="#secundaria">Docentes de secundaria</a></li>
+								<li><a href="#tutores">Tutores</a></li>
+
+							</ul>
+						</div>
+
+						<div class="footer-section">
+							<h4>Institucional</h4>
+							<ul class="footer-links">
+								<li><a href="home.html">Inicio</a></li>
+								<li><a href="Institucion.html">Institución</a></li>
+								<li><a href="Matricula.html">Matricula</a></li>
+								<li><a href="Contactanos.html">Contáctanos</a></li>
+
+							</ul>
+						</div>
+
+						<div class="footer-section">
+							<h4>Contacto</h4>
+							<div class="footer-contact">
+								<p>
+									<a class="contact-link">
+										<i class="fa-solid fa-phone"></i>
+										+51 929 305 278
+									</a>
+								</p>
+								<p>
+									<a class="contact-link">
+										<i class="fa-solid fa-envelope"></i>
+										Iesp.elmilagrodeguadalupe@gmail.com
+									</a>
+								</p>
+								<p class="contact-address">
+									<i class="fa-solid fa-map-pin"></i>
+									Calle Francisco Bolognesi N°340<br />
+									Mochumí, Perú
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="footer-mid">
+						<div class="footer-social">
+							<a class="social-icon facebook" href="https://web.facebook.com/pierluggiraul.inonancastillo.7" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+							</a>
+							<a class="social-icon instagram" href="https://www.instagram.com/iep.elmilagrodeguadalupe/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+								<i class="fa-brands fa-instagram"></i>
+							</a>
+							
+							<a class="social-icon whatsapp" href="https://wa.me/51929305278" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+								<i class="fa-brands fa-whatsapp"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer-bottom">
+					<p>&copy; Colegio Guadalupe. Todos los derechos reservados.</p>
+					
+				</div>
+			</footer>
+		</div>
+		<a
+			class="whatsapp-bubble"
+			href="https://wa.me/51929305278?text=Hola%20Colegio%20Guadalupe%2C%20quisiera%20m%C3%A1s%20informaci%C3%B3n."
+			target="_blank"
+			rel="noopener noreferrer"
+			aria-label="Escríbenos por WhatsApp"
+		>
+			<i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+			<span>WhatsApp</span>
+		</a>
+	</body>
+</html>

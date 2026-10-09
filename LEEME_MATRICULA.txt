@@ -1,0 +1,18 @@
+ACTUALIZACIÓN: PROCESO DE MATRÍCULA
+Colegio Guadalupe — 2026
+
+Archivos nuevos:
+- PAGINAS/Matricula.html
+- Estilos_Html/Es_Matricula.css
+- Animaciones/Es_matricula.js
+
+Integraciones realizadas:
+- El menú “Procesos” fue reemplazado por “Matrícula” en todas las páginas.
+- Se agregó una vista previa del proceso de matrícula en la página de inicio.
+- Se añadieron etapas del proceso, requisitos, niveles, recomendaciones y preguntas frecuentes.
+- El formulario valida los campos y prepara una consulta por WhatsApp al número institucional.
+- Se incluyó una opción para imprimir la lista de requisitos visible.
+
+Importante:
+- Los costos, fechas, vacantes y documentos definitivos deben confirmarse con Secretaría.
+- El proyecto sigue siendo un sitio estático y no requiere proceso de compilación.

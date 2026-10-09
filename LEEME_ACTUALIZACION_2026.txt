@@ -1,0 +1,39 @@
+ACTUALIZACIÓN DEL PROYECTO — 2026
+=================================
+
+1. CARRUSEL Y GALERÍA
+- El carrusel de Institución fue reducido de 38 a 8 fotografías destacadas.
+- Las otras 30 fotografías NO fueron eliminadas.
+- Se organizaron en la sección "Nuestra comunidad en imágenes".
+- La nueva galería incluye filtros por categorías y el botón "Ver más fotografías".
+
+2. MISIÓN Y VISIÓN
+- Se agregó la Visión 2.3 y la Misión 2.4 suministradas para el proyecto.
+- Los textos fueron corregidos únicamente en puntuación y redacción para su presentación web.
+- Se organizaron en dos tarjetas adaptables a computadora, tablet y celular.
+
+3. MATRÍCULA 2026
+- Se incorporaron requisitos para ingresantes, traslado, estudiantes provenientes del extranjero y ratificación.
+- Se agregó información para postulantes con NEE y NEES.
+- Se agregaron matrícula, pensiones, costo del servicio, apoyo para hermanos, cuota de ingreso y cronograma de pagos.
+- Se agregaron botones para ver y descargar el Boletín Informativo 2026 y la Carta de Compromiso 2026.
+- Los archivos PDF están dentro de la carpeta DOCUMENTOS.
+
+4. DATO PENDIENTE DE CONFIRMACIÓN
+- El proyecto utiliza el número de WhatsApp +51 979 343 130.
+- El Boletín Informativo 2026 indica los teléfonos 946 499 417 y 929 305 278.
+- No se cambió el WhatsApp para evitar enviar consultas a un número incorrecto.
+- El correo del sitio sí fue actualizado al correo indicado en el boletín:
+  Iesp.elmilagrodeguadalupe@gmail.com
+
+5. CONSISTENCIA DE DOCUMENTOS
+- La página web usa la misión y visión extensas entregadas para esta actualización.
+- El Boletín Informativo 2026 contiene versiones más breves. Se recomienda unificar ambos textos en una futura edición oficial.
+
+AJUSTE FINAL DE ENCABEZADO Y WHATSAPP
+--------------------------------------
+- Se agregó Estilos_Html/Componentes.css como hoja compartida.
+- El encabezado de todas las páginas quedó centrado, compacto y con forma de cápsula.
+- Se evitó que el menú ocupe todo el ancho o rompa la composición del hero.
+- En pantallas pequeñas, los enlaces pueden deslizarse horizontalmente dentro de la cápsula.
+- El botón flotante de WhatsApp conserva siempre una forma circular, incluso en Matrícula.

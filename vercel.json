@@ -1,0 +1,27 @@
+{
+  "builds": [
+    {
+      "src": "PAGINAS/**/*.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/PAGINAS/home.html"
+    },
+    {
+      "src": "/index.html",
+      "dest": "/PAGINAS/home.html"
+    },
+    {
+      "src": "/(.*)\\.html",
+      "dest": "/PAGINAS/$1.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/PAGINAS/$1.html"
+    }
+  ],
+  "cleanUrls": true
+}
